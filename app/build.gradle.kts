@@ -1,4 +1,8 @@
 plugins {
+    id("com.android.application")
+    // Add the  google services Gradle plugin
+    id("com.google.gms.google-services")
+
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
 }
@@ -38,6 +42,8 @@ android {
 }
 
 dependencies {
+    // Import Firebase BoM
+    implementation(platform("com.google.firebase:firebase-bom:34.12.0"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

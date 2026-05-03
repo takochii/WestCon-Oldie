@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "598507684936",
+    "project_id": "westcon-cit238",
+    "storage_bucket": "westcon-cit238.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598507684936:android:3596c4285f035a82ee447d",
+        "android_client_info": {
+          "package_name": "com.example.westcon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwH5x6jaN60g0bvRYJZBsOPbmq1oiZ32c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
