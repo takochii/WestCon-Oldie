@@ -14,7 +14,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.westcon.R
-
+//this is test
 // Define the brand colors based on your image
 val WestconBlue = Color(0xFF004AAD)
 val WestconDarkBlue = Color(0xFF001D3D)
